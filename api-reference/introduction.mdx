@@ -1,6 +1,6 @@
 ---
 title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+description: 'Example section for showcasing Post-Quantum Cryptography API endpoints'
 ---
 
 <Note>
@@ -10,19 +10,19 @@ description: 'Example section for showcasing API endpoints'
 
 ## Welcome
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For this documentation, we are using the following OpenAPI specification for the Post-Quantum Cryptography API.
 
 <Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
+  title="Post-Quantum Cryptography API Endpoints"
+  icon="lock"
+  href="https://github.com/your-organization/your-repository/blob/main/api-reference/openapi.json"
 >
   View the OpenAPI specification file
 </Card>
 
 ## Authentication
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+All API endpoints are authenticated using Bearer tokens. The token is expected to be passed in the `Authorization` header of each request.
 
 ```json
 "security": [
@@ -30,4 +30,3 @@ All API endpoints are authenticated using Bearer tokens and picked up from the s
     "bearerAuth": []
   }
 ]
-```

@@ -77,9 +77,12 @@
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/register_user",
+        "api-reference/endpoint/decrypt_pqc",
+        "api-reference/endpoint/encrypt_pqc",
+        "api-reference/endpoint/generate_pqc_keys",
+        "api-reference/endpoint/create_token",
+        "api-reference/endpoint/refresh_token"
       ]
     }
   ],

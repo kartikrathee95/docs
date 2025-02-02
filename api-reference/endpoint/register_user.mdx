@@ -1,0 +1,19 @@
+---
+title: 'Create User'
+openapi: 'POST /api/register/'
+---
+
+## Create User
+
+This endpoint allows you to register a new user in the system.
+
+### Request Body
+
+The request body should contain the user's details in JSON format. This includes a username, password, and email address. The fields are required, and the password must be securely formatted.
+
+```json
+{
+  "username": "user123",
+  "password": "securepassword",
+  "email": "user123@example.com"
+}
